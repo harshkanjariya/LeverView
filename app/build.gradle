@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 
@@ -7,6 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
+        applicationId "com.harsh.leverview"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -31,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation project(':leverview')
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.6.0'

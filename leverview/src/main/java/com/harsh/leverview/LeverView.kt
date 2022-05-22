@@ -19,7 +19,7 @@ import kotlin.math.cos
 import kotlin.math.sin
 
 
-class LiverView : View {
+class LeverView : View {
 
     private lateinit var textPaint: TextPaint
     private var labelTextSize: Float = 50f

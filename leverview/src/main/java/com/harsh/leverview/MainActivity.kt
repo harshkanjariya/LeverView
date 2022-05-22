@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val lever: LiverView = findViewById(R.id.lever)
+        val lever: LeverView = findViewById(R.id.lever)
 
         lever.setOnStateChangeListener { type, index ->
         }

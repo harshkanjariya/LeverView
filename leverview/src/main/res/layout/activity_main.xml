@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.harsh.leverview.LiverView
+    <com.harsh.leverview.LeverView
         android:layout_width="400dp"
         android:layout_height="400dp"
         android:background="@android:color/white"
