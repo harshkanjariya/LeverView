@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="LiverView">
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="currentValue" format="float" />
+        <attr name="labels" format="string"/>
+        <attr name="img" format="reference" />
+    </declare-styleable>
+</resources>
